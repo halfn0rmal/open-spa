@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d804bf36-17c2-4df8-b00c-159a59f83bf3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 100.965 98.425) (size 17.145 14.605) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 264c781a-0ceb-4367-9272-09ecff4e6a9d)
+    (property "Sheetname" "Inputs" (at 100.965 97.7134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inputs.kicad_sch" (at 100.965 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brain"
+        (path "/d804bf36-17c2-4df8-b00c-159a59f83bf3" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 100.965 77.47) (size 17.145 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 775fdf98-39c6-4330-8c8a-e044ff0dc9d9)
+    (property "Sheetname" "RS-485" (at 100.965 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rs-485.kicad_sch" (at 100.965 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brain"
+        (path "/d804bf36-17c2-4df8-b00c-159a59f83bf3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 75.565) (size 34.29 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ab303028-a892-4f88-9464-a658871ae48d)
+    (property "Sheetname" "ESP-32" (at 128.27 74.8534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp-32.kicad_sch" (at 128.27 102.8196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brain"
+        (path "/d804bf36-17c2-4df8-b00c-159a59f83bf3" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 171.45 76.2) (size 20.32 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b619fb66-292a-4c00-8ea9-323a61d8ff7b)
+    (property "Sheetname" "Power" (at 171.45 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu.kicad_sch" (at 171.45 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brain"
+        (path "/d804bf36-17c2-4df8-b00c-159a59f83bf3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 118.11) (size 17.145 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid caa6ad66-a896-428a-a0a5-619af761a72a)
+    (property "Sheetname" "Outputs" (at 128.27 117.3984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "outputs.kicad_sch" (at 128.27 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brain"
+        (path "/d804bf36-17c2-4df8-b00c-159a59f83bf3" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
