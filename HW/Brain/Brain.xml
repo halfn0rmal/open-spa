@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GrantElectronics\open-spa\HW\Brain\Brain.kicad_sch</source>
-    <date>29/11/2023 10:49:46 pm</date>
+    <date>12/01/2024 9:12:08 am</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -679,7 +679,7 @@
       <tstamps>cde84ae2-f5e1-4d59-aa94-201be79d4411</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>AM4417P</value>
+      <value>DMP6110SSS-13</value>
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <libsource lib="fets" part="AM4417P" description=""/>
       <property name="Sheetname" value="Power"/>
@@ -688,7 +688,7 @@
       <tstamps>d55e7bc2-dafe-45bd-8bb8-6cd956db9281</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>AM4417P</value>
+      <value>DMP6110SSS-13</value>
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <libsource lib="fets" part="AM4417P" description=""/>
       <property name="Sheetname" value="Power"/>
@@ -991,7 +991,7 @@
       <tstamps>941efa21-f03b-462b-a580-cd48ef11adf8</tstamps>
     </comp>
     <comp ref="U5">
-      <value>NCP718xSN500</value>
+      <value>NCP718BSN500T1G</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/NCP718-D.PDF</datasheet>
       <libsource lib="Regulator_Linear" part="NCP718xSN500" description="300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23"/>
