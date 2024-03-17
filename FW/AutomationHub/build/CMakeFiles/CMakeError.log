@@ -1,0 +1,50 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/AutomationHub/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9f62a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f62a.dir\Debug\\" /Fd"cmTC_9f62a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Users\adamr\.espressif\tools\cmake\3.24.0\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+cl : command line  error D8021: invalid numeric argument '/Wno-frame-address' [C:\AutomationHub\build\CMakeFiles\CMakeTmp\cmTC_9f62a.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/AutomationHub/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61461.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61461.dir\Debug\\" /Fd"cmTC_61461.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address C:\AutomationHub\build\CMakeFiles\CMakeTmp\testCCompiler.c
+cl : command line  error D8021: invalid numeric argument '/Wno-frame-address' [C:\AutomationHub\build\CMakeFiles\CMakeTmp\cmTC_61461.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/AutomationHub/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61cac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61cac.dir\Debug\\" /Fd"cmTC_61cac.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Users\adamr\.espressif\tools\cmake\3.24.0\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+cl : command line  error D8021: invalid numeric argument '/Wno-frame-address' [C:\AutomationHub\build\CMakeFiles\CMakeTmp\cmTC_61cac.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/AutomationHub/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1609b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1609b.dir\Debug\\" /Fd"cmTC_1609b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address C:\AutomationHub\build\CMakeFiles\CMakeTmp\testCCompiler.c
+cl : command line  error D8021: invalid numeric argument '/Wno-frame-address' [C:\AutomationHub\build\CMakeFiles\CMakeTmp\cmTC_1609b.vcxproj]
+
+
+
